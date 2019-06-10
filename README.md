@@ -1,4 +1,4 @@
-Metaballs FX for Unreal Engine 4.10:
+Metaballs FX for Unreal Engine 4.12:
 
 https://www.youtube.com/watch?v=Z0xbnEMbMxw
 
@@ -23,7 +23,7 @@ Installation:
 
 
 
-Please, make sure that completely installed Microsoft Visual Studio 2015 and Unreal Engine 4.10
+Please, make sure that completely installed Microsoft Visual Studio 2017 and Unreal Engine 4.12
 
 
 Author:
