@@ -50,8 +50,8 @@ AMetaballs::AMetaballs(const FObjectInitializer& ObjectInitializer) : Super(Obje
 	m_mesh->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
 
 	RootComponent = m_mesh;
-	MetaBallsBoundBox->AttachParent = RootComponent;
-	CapsuleComp->AttachParent = RootComponent;
+	MetaBallsBoundBox->SetupAttachment(RootComponent);
+	CapsuleComp->SetupAttachment(RootComponent);
 
 
 	m_Scale = 100.0f;

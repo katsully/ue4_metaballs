@@ -4,10 +4,9 @@ using System.IO;
 public class MetaballsPlugin : ModuleRules
 {
 
-    public MetaballsPlugin(TargetInfo Target)
+    public MetaballsPlugin(ReadOnlyTargetRules Target) : base(Target)
     {
-        PrivateIncludePaths.AddRange(new string[] { "MetaballsPlugin/Private" });
-	PublicIncludePaths.AddRange(new string[] { "MetaballsPlugin/Public" });
+        PrivatePCHHeaderFile = "Private/MetaballsPluginPrivatePCH.h";
 
         PublicDependencyModuleNames.AddRange(new string[] { "Engine", "Core", "CoreUObject", "InputCore", "ProceduralMeshComponent" });
     }
