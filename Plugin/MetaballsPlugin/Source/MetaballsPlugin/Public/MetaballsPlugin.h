@@ -16,7 +16,7 @@
 
 #pragma once
  
-#include "ModuleManager.h"
+#include "Modules/ModuleManager.h"
  
 class MetaballsPluginImpl : public IModuleInterface
 {
